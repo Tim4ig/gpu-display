@@ -7,7 +7,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 set(SRC_FILES
-  src/main.cpp
+  src/main.cc
+  src/gpu_light_controller.cc
+  src/cpu_temp_sensor.cc
+  src/temp_filter.cc
 )
 
 add_executable(${PROJECT_NAME} ${SRC_FILES})
