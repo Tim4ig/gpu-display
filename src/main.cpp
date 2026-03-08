@@ -2,6 +2,6 @@
 
 int main()
 {
-  std::cout << "Hello from cpp_template!\n";
+  std::cout << "Hello from gpu-display!\n";
   return 0;
 }

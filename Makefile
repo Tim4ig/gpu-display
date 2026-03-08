@@ -1,4 +1,4 @@
-PROJECT_NAME ?= cpp_template
+PROJECT_NAME ?= gpu-display
 CMAKE ?= cmake
 CLANG_FORMAT ?= clang-format
 
